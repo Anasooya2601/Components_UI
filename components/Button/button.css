@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto:ital,wght@0,400;1,300&family=Space+Grotesk:wght@700&display=swap');
+.main-text{
+    margin: 2rem 0;
+}
+
+.btn-container{
+display: flex;
+flex-wrap: wrap;
+margin-top: 1.5rem;
+gap: 1rem;
+align-items: center;
+
+
+}
+
+.btn {
+border:none;
+background-color: none;
+outline: none;
+padding: 0.5rem 1rem;
+border: 5px;
+border-radius: 5px;
+font-size: 1.1rem;
+cursor: pointer;
+color: #0e9aeb;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.primary{
+    background-color:#fbbf24 ;
+
+}
+.secondary{
+    background-color: #fca5a5;
+}
+.danger{
+    background-color: #bef264;
+}
+.success{
+    background-color: #0369a1;
+}
+.warning{
+    background-color: #ded48f;
+}
+
+/* outlined-button */
+.outlined-sub{
+    margin-top: 1.5rem;
+}
+.outlined-btn{
+border-radius: 8px;
+font-size: 1.1rem;
+letter-spacing: 1px;
+color:#0369a1;
+background-color: white;
+cursor: pointer;
+padding: 0.5rem;
+gap: 1rem;
+}
+.outlined-primary{
+    border: 0.5px solid #0369a1;
+}
+.outlined-secondary{
+    border: 0.5px solid #0369a1;
+}
+.outlined-warning{
+    border: 0.5px solid #0369a1;
+}
+.outlined-attention{
+    border: 0.5px solid #0369a1;
+}
+.btn-icon{
+background-color: white;
+cursor: pointer;
+}
+/* icon-btn */
+
+
+/* floating-btn */
+.btn-float{
+    color: white;
+    background-color: #0e9aeb;
+    padding: 0.6rem 1rem;
+    box-shadow: #ded48f 0px 8px 16px;
+}
