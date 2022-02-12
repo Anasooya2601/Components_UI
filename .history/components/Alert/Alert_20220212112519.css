@@ -2,16 +2,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 1.5rem;
+    gap: 2.5rem;
     margin-top: 1rem;
-    border-radius: 0.6rem;
+    border-radius: 0.2rem;
     padding: 1rem;
 }
 .alert{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 25em;
+    width: 25rem;
     align-items: center;
     border-radius: 0.2rem;
     padding: 0.5rem 1rem;
@@ -19,7 +19,7 @@
 .alert-msg{
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 2.5rem;
   
 }
 .alert-danger{

@@ -13,10 +13,8 @@ body{
 :root{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    --main:#fca5a5;
+    --main-color:#fca5a5;
     --green:#86efac;
-    --red:#f87171;
-    --blue:
 }
 
 /* logo */
@@ -74,8 +72,3 @@ background-color: var(--green);
     border-bottom: var(--main-color);
     padding: 1rem;
 }
-hr{
-    width:250%;
-    text-align:left;
-    margin-left:0;
-    }

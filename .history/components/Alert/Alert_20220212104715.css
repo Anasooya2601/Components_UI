@@ -1,0 +1,19 @@
+.alert_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2.5rem;
+    margin-top: 1rem;
+    border-radius: 0.2rem;
+    padding: 1rem;
+    background-color: var(--green);
+}
+.alert{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 26rem;
+    align-items: center;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+}
