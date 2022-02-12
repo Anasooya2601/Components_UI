@@ -1,0 +1,16 @@
+.image-container{
+display: flex;
+gap: 5rem;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+}
+.img-sub{
+
+}
+.round-img{
+
+}
+.resp-img{
+
+}
