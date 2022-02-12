@@ -16,9 +16,7 @@ body{
     --main:#fca5a5;
     --green:#86efac;
     --red:#f87171;
-    --dark-red:#f72121;
-    --gray:#7d8693;
-    --dark-green:#116a31;
+    --blue:
 }
 
 /* logo */
@@ -48,15 +46,14 @@ body{
 }
 /* navbar */
 .navbar-wrapper{
-    width: 15%;
-    height: 200vh;
+    width: 20%;
+    height: 100vh;
     font-size: 1rem;
     flex-direction: column;
     overflow-y: scroll;
 display: flex;
 flex-shrink: 0;
 background-color: var(--green);
-transition: 0.3s all ease-in;
 }
 .nav{
     display: flex;
@@ -90,14 +87,3 @@ hr{
         width: 100%;
         height: auto;
     }
-.section-info{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
-}
-.para{
-    padding: 1rem;
-}
-.text-header{
-    padding: 1rem;
-}
