@@ -1,0 +1,36 @@
+.alert_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2.5rem;
+    margin-top: 1rem;
+    border-radius: 0.2rem;
+    padding: 1rem;
+}
+.alert{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 26rem;
+    align-items: center;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+}
+.alert-message{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--main);
+}
+.alert-danger{
+    background-color: var(--main);
+    color: var(--red);
+   
+}
+.alert-message{
+    background-color: var(--main);
+}
+.alert-success{
+    background-color: var(--main);
+ 
+}

@@ -1,0 +1,8 @@
+.main-container{
+    display: flex;
+}
+.text{
+    font-size: 0.5rem;
+    margin: 1.5rem;
+    font-weight: bold;
+}
