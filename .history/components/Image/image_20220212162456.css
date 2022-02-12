@@ -1,0 +1,23 @@
+.image-container{
+display: flex;
+gap: 5rem;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+}
+.img-sub{
+display: flex;
+flex-direction: column;
+gap: 3rem;
+justify-content: space-evenly;
+align-items: center;
+}
+.round-img{
+border-radius: 999px;
+width:9.5rem ;
+}
+.resp-img{
+border-radius: 0;
+width: 100%;
+height: auto;
+}

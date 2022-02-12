@@ -1,0 +1,26 @@
+.image-container{
+display: flex;
+gap: 5rem;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+}
+.img-sub{
+display: flex;
+flex-direction: column;
+gap: 3rem;
+justify-content: space-evenly;
+align-items: center;
+}
+.round-img{
+width: 8rem;
+height: 8rem;
+border-radius: 60%;
+object-fit: cover;
+}
+.resp-img{
+padding: 1rem;
+width: 100%;
+height: auto;
+
+}
