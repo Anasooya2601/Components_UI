@@ -47,7 +47,7 @@ body{
 /* navbar */
 .navbar-wrapper{
     width: 20%;
-    height: 200vh;
+    height: 100vh;
     font-size: 1rem;
     flex-direction: column;
     overflow-y: scroll;

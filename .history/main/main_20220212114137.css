@@ -47,14 +47,13 @@ body{
 /* navbar */
 .navbar-wrapper{
     width: 20%;
-    height: 200vh;
+    height: 100vh;
     font-size: 1rem;
     flex-direction: column;
     overflow-y: scroll;
 display: flex;
 flex-shrink: 0;
 background-color: var(--green);
-transition: 0.3s all ease-in;
 }
 .nav{
     display: flex;
