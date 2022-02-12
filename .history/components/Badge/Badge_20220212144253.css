@@ -1,0 +1,57 @@
+.badge-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+    background-color: var(--main);
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.badge{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+    position: relative;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+}
+.notification{
+    background-color: var(--dark-red);
+    padding: 0.2rem 0.5rem;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.2rem;
+    right: 0.6rem;
+ height: 1rem;
+min-height: 0.1rem;
+}
+span{
+    top: 1rem;
+}
+
+.badge-online,.badge-offline{
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    padding: 0.2rem;
+    border-radius: 40%;
+    border: 2px solid var(--main);
+    
+}
+.avatar{
+    border-radius: 50%;
+}
+.md{
+    height: 4rem;
+    width: 4rem;
+}
+.badge-online{
+    background-color: var(--dark_green);
+}
+.badge-offline{
+    background-color: var(--gray);
+}
