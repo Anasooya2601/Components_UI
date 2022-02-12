@@ -6,13 +6,12 @@
     margin-top: 1rem;
     border-radius: 0.6rem;
     padding: 1rem;
-    
 }
 .alert{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 26rem;
+    width: 2rem;
     align-items: center;
     border-radius: 0.2rem;
     padding: 0.5rem 1rem;

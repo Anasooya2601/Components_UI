@@ -6,7 +6,7 @@
     margin-top: 1rem;
     border-radius: 0.6rem;
     padding: 1rem;
-    
+    width: 25rem;
 }
 .alert{
     display: flex;
