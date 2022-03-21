@@ -4,6 +4,6 @@
 @import "../main/main.css";
 @import"./Badge/Badge.css";
 @import"./Card/card.css";
-@import"./";
-@import"";
-@import"";
+@import"./Typography/typo.css";
+@import"./Modal/modal.css";
+@import"./List/list.css";
